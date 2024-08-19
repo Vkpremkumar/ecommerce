@@ -1,0 +1,15 @@
+This file contains some details about backend folder
+The backend folder contains models,routes,.env file,index.js file
+
+index.js is the main file 
+
+To run this project :
+command : npm start
+
+This project is listening on port no : 5000
+
+Mongodb is used for store and retrieve data
+
+
+
+===================**************===============================
