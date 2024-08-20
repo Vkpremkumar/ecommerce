@@ -39,7 +39,7 @@ router.post('/addProduct', verifyToken, upload.single('image'), async (req, res)
         const savedProduct = await newProduct.save();
         return res.status(200).json({ savedProduct });
     } catch (err) {
-        return res.status(500).json({ message: `Something  went wrong!..` })
+        return res.status(400).json({ message: `Something went wrong while adding product!..` })
     }
 })
 
